@@ -35,8 +35,8 @@ export default function LoginPage() {
         <h1 className="text-black/70 text-3xl font-semibold text-center my-20"> Faça seu Login</h1>
         <form onSubmit={handleSubmit}>
           <TextField className="border-b-3 rounded-b-lg border-main-purple mb-6" id="email" label="E-mail" />
-          <TextField className="border-b-3 rounded-b-lg border-main-purple mb-4" id="password" label="Password" type="password" />
-          <Button  type="submit"  className="mb-20"> Continuar </Button>
+          <TextField className="border-b-3 rounded-b-lg border-main-purple mb-10" id="password" label="Password" type="password" />
+          <Button  type="submit"  className="mb-5"> Continuar </Button>
         </form>
       </div>
     </article>

@@ -1,14 +1,14 @@
 import api from "../api";
 
 type SignupPayload = {
-  name: string;
+  username: string;
   email: string;
   password: string;
 }
 
 export async function signupService(formData: FormData) {
   const payload: SignupPayload = {
-    name: formData.get("name") as string,
+    username: formData.get("username") as string,
     email: formData.get("email") as string,
     password: formData.get("password") as string,
   };
