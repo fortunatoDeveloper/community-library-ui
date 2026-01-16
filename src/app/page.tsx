@@ -1,9 +1,3 @@
 export default function Home() {
-  return (
-    <div>
-      <section>
-        <input type="text" />
-      </section>
-    </div>
-  );
+  return <h1>Home</h1>;
 }
